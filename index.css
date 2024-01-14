@@ -1,0 +1,118 @@
+/*
+
+Color palette generated from Coolors using background image.
+https://coolors.co/0a0901-f76f1c-8d1e02-433e28-e05103
+
+*/
+
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    src: url('CursedTimerUlil-Aznm.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/basketball.jpeg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #0A0901;
+    width: 575px;
+    height: 450px;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.team-name {
+    color: #8D1E02;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.893px; /* 89.732% */
+}
+
+.score {
+    background: #433E28;
+    width: 155px;
+    height: 120px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    color: #F76F1C;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.666px; /* 140.74% */
+}
+
+.score-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.score-button {
+    font-family: Cursed Timer ULiL;
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #433E28; 
+    color: #F76F1C;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400; 
+    background: #0A0901;
+
+}
+
+.new-game {
+    display: flex;
+    justify-content: center;
+}
+
+.new-game-button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 120px;
+    height: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid #433E28; 
+    color: #F76F1C;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400; 
+    background: #0A0901;
+}
